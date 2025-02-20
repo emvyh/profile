@@ -7,7 +7,7 @@
   },
   {
     "title": "Cars App",
-    "imageSrc": "projects/port.png",
+    "imageSrc": "projects/cars.png",
     "description": "An iOS app that showcases car brands, models, videos and images in a tab view.",
     "skills": ["Swift", "JSON"]
   },

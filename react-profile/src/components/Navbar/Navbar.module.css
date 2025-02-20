@@ -32,6 +32,10 @@
   color: var(--color-text);
   text-decoration: none;
 }
+.menuBtn {
+  display: none;
+}
+
 
 @media screen and (max-width: 830px) {
   .navbar {
@@ -57,11 +61,11 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
+    background:  rgb(214, 141, 153);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 209, 1) 100%
+      #ffd7e2 0%,
+       rgb(214, 141, 153) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0, 0.25);
