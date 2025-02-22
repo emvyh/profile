@@ -53,6 +53,11 @@
   transition: 0.4s;
 }
 
+.aboutItem img {
+  width: 50px;
+  margin-right: 10px;
+}
+
 .aboutItem:hover {
   background-size: 100% 100%;
 }
