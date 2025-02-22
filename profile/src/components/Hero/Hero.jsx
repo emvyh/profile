@@ -7,9 +7,11 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Emily</h1>
         <p className={styles.description}>
-          I am a Junior at Virginia Tech studying Computer Science. I am looking
-          for a summer internship. My focus is front-end and React. Reach out if
-          you'd like to learn more.
+          I'm currently a Junior at Virginia Tech, pursuing a degree in
+          Computer Science, and I'm on the lookout for an exciting summer
+          internship opportunity. My expertise lies in front-end development,
+          with a particular focus on React. Feel free to reach out if you’d like
+          to connect or learn more about my skills and experiences!
         </p>
         <a className={styles.contactBtn} href="mailto:emilyhoanggs@gmail.com">
           Contact Me

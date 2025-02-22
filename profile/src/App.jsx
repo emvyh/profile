@@ -1,19 +1,23 @@
-import styles from './App.module.css';
-import { About } from './components/About/About.jsx';
-import { Contact } from './components/Contact/Contact.jsx';
-import { Experience } from './components/Experience/Experience.jsx';
-import { Hero } from './components/Hero/Hero.jsx';
+import styles from "./App.module.css";
+import { About } from "./components/About/About.jsx";
+import { Contact } from "./components/Contact/Contact.jsx";
+import { Experience } from "./components/Experience/Experience.jsx";
+import { Hero } from "./components/Hero/Hero.jsx";
 import { Navbar } from "./components/Navbar/Navbar.jsx";
-import { Projects } from './components/Projects/Projects.jsx';
+import { Projects } from "./components/Projects/Projects.jsx";
+import { Me } from "./components/Me/Me.jsx";
 function App() {
-  return <div className={styles.App}>
-    <Navbar />
-    <Hero />
-    <About />
-    <Experience/>
-    <Projects/>
-    <Contact />
+  return (
+    <div className={styles.App}>
+      <Navbar />
+      <Hero />
+      <About />
+      <Experience />
+      <Projects />
+      <Me />
+      <Contact />
     </div>
+  );
 }
 
-export default App
+export default App;
