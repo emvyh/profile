@@ -7,7 +7,7 @@ export const Navbar = () => {
   //using state, false by default because screen is closed
   return (
     <nav className={styles.navbar}>
-      <a className={styles.title} href="/">
+      <a className={styles.title} href="https://emvyh.github.io/profile">
         Portfolio
       </a>
       <div className={styles.menu}>
