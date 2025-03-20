@@ -2,18 +2,14 @@
 
 .container {
   color: var(--color-text);
-  font-size: 25px;
-  font-weight: 300;
-  font-family: var(--font-roboto);
+  font: 300 25px var(--font-roboto);
   display: flex;
   gap: 150px;
   position: relative;
   background-color: rgb(214, 141, 153);
   border-radius: 15px;
   padding: 63px;
-  margin-top: 79px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 79px 10% 0;
 }
 
 .title {
@@ -40,9 +36,7 @@
   gap: 11px;
 }
 .pictures p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+  font: 500 25px var(--font-roboto);
   text-align: center;
 }
 
@@ -60,9 +54,7 @@
 
 .shidae {
   text-decoration: none;
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
+  font: 500 25px var(--font-roboto);
   text-align: center;
   color: #fff;
 }

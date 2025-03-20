@@ -71,6 +71,8 @@
   font-size: 25px;
 }
 
+
+/*to apply different styles based on screen size*/
 @media screen and (max-width: 830px) {
   .container {
     background-color: transparent;

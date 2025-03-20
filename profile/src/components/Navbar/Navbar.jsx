@@ -5,6 +5,7 @@ import { getImageUrl } from "../../utils";
 export const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   //using state, false by default because screen is closed
+  //set menu is then toggled by setMenuOpen(!MenuOpen)
   return (
     <nav className={styles.navbar}>
       <a className={styles.title} href="https://emvyh.github.io/profile">
@@ -26,6 +27,7 @@ export const Navbar = () => {
         <ul
           className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
           onClick={() => setMenuOpen(false)}
+          //if any section is clicked the popup closes 
         >
           <li>
             <a href="#education">Education</a>
